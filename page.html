@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Grimoire des Objets</title>
+  <style>
+    body { background: #111; color: #eee; font-family: monospace; }
+    .objet { cursor: pointer; padding: 5px; border-bottom: 1px solid #444; }
+    .objet:hover { background: #222; }
+    .corrompu { color: crimson; text-decoration: line-through; }
+  </style>
+</head>
+<body>
+  <h1>📖 Grimoire des Objets Maudits</h1>
+  <input type="text" id="nouvelObjet" placeholder="Nom de l’objet" />
+  <button onclick="ajouterObjet()">Ajouter</button>
+
+  <ul id="listeObjets"></ul>
+
+  <div id="details"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
